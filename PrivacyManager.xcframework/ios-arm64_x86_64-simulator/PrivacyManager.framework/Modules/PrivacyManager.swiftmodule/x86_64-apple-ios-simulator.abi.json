@@ -1,0 +1,1318 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "PrivacyManager",
+    "printedName": "PrivacyManager",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PrivacyManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PrivacyHelper",
+        "printedName": "PrivacyHelper",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "openSettingAlert",
+            "printedName": "openSettingAlert(title:message:buttonText:hasCancelButton:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PrivacyManager0A6HelperC16openSettingAlert5title7message10buttonText15hasCancelButtonySS_S2SSbtFZ",
+            "mangledName": "$s14PrivacyManager0A6HelperC16openSettingAlert5title7message10buttonText15hasCancelButtonySS_S2SSbtFZ",
+            "moduleName": "PrivacyManager",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPhoto",
+            "printedName": "getPhoto(inViewController:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIKit.UIImage) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PrivacyManager0A6HelperC8getPhoto16inViewController6resultySo06UIViewH0C_ySo7UIImageCctFZ",
+            "mangledName": "$s14PrivacyManager0A6HelperC8getPhoto16inViewController6resultySo06UIViewH0C_ySo7UIImageCctFZ",
+            "moduleName": "PrivacyManager",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getContactInfo",
+            "printedName": "getContactInfo(inViewController:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?, Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String?, Swift.String?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PrivacyManager0A6HelperC14getContactInfo16inViewController6resultySo06UIViewI0C_ySSSg_AItctFZ",
+            "mangledName": "$s14PrivacyManager0A6HelperC14getContactInfo16inViewController6resultySo06UIViewI0C_ySSSg_AItctFZ",
+            "moduleName": "PrivacyManager",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkLocation",
+            "printedName": "checkLocation(alertTitle:alertMessage:alertButtonText:didAuthorized:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PrivacyManager0A6HelperC13checkLocation10alertTitle0F7Message0F10ButtonText13didAuthorizedySS_S2SyyctFZ",
+            "mangledName": "$s14PrivacyManager0A6HelperC13checkLocation10alertTitle0F7Message0F10ButtonText13didAuthorizedySS_S2SyyctFZ",
+            "moduleName": "PrivacyManager",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkCamera",
+            "printedName": "checkCamera(alertTitle:alertMessage:alertButtonText:didAuthorized:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PrivacyManager0A6HelperC11checkCamera10alertTitle0F7Message0F10ButtonText13didAuthorizedySS_S2SyyctFZ",
+            "mangledName": "$s14PrivacyManager0A6HelperC11checkCamera10alertTitle0F7Message0F10ButtonText13didAuthorizedySS_S2SyyctFZ",
+            "moduleName": "PrivacyManager",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrivacyHelper",
+                "printedName": "PrivacyManager.PrivacyHelper",
+                "usr": "c:@M@PrivacyManager@objc(cs)PrivacyHelper"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PrivacyManager@objc(cs)PrivacyHelper(im)init",
+            "mangledName": "$s14PrivacyManager0A6HelperCACycfc",
+            "moduleName": "PrivacyManager",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PrivacyManager@objc(cs)PrivacyHelper",
+        "mangledName": "$s14PrivacyManager0A6HelperC",
+        "moduleName": "PrivacyManager",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PrivacyManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "PrivacyManager"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PrivacyManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "PrivacyManager"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LocationHelper",
+        "printedName": "LocationHelper",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LocationHelper",
+                "printedName": "PrivacyManager.LocationHelper",
+                "usr": "c:@M@PrivacyManager@objc(cs)LocationHelper"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PrivacyManager14LocationHelperC6sharedACvpZ",
+            "mangledName": "$s14PrivacyManager14LocationHelperC6sharedACvpZ",
+            "moduleName": "PrivacyManager",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LocationHelper",
+                    "printedName": "PrivacyManager.LocationHelper",
+                    "usr": "c:@M@PrivacyManager@objc(cs)LocationHelper"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PrivacyManager14LocationHelperC6sharedACvgZ",
+                "mangledName": "$s14PrivacyManager14LocationHelperC6sharedACvgZ",
+                "moduleName": "PrivacyManager",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LocationHelper",
+                    "printedName": "PrivacyManager.LocationHelper",
+                    "usr": "c:@M@PrivacyManager@objc(cs)LocationHelper"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PrivacyManager14LocationHelperC6sharedACvsZ",
+                "mangledName": "$s14PrivacyManager14LocationHelperC6sharedACvsZ",
+                "moduleName": "PrivacyManager",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PrivacyManager14LocationHelperC6sharedACvMZ",
+                "mangledName": "$s14PrivacyManager14LocationHelperC6sharedACvMZ",
+                "moduleName": "PrivacyManager",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "latitude",
+            "printedName": "latitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PrivacyManager14LocationHelperC8latitudeSdvp",
+            "mangledName": "$s14PrivacyManager14LocationHelperC8latitudeSdvp",
+            "moduleName": "PrivacyManager",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PrivacyManager14LocationHelperC8latitudeSdvg",
+                "mangledName": "$s14PrivacyManager14LocationHelperC8latitudeSdvg",
+                "moduleName": "PrivacyManager",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PrivacyManager14LocationHelperC8latitudeSdvs",
+                "mangledName": "$s14PrivacyManager14LocationHelperC8latitudeSdvs",
+                "moduleName": "PrivacyManager",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PrivacyManager14LocationHelperC8latitudeSdvM",
+                "mangledName": "$s14PrivacyManager14LocationHelperC8latitudeSdvM",
+                "moduleName": "PrivacyManager",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "longitude",
+            "printedName": "longitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PrivacyManager14LocationHelperC9longitudeSdvp",
+            "mangledName": "$s14PrivacyManager14LocationHelperC9longitudeSdvp",
+            "moduleName": "PrivacyManager",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PrivacyManager14LocationHelperC9longitudeSdvg",
+                "mangledName": "$s14PrivacyManager14LocationHelperC9longitudeSdvg",
+                "moduleName": "PrivacyManager",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PrivacyManager14LocationHelperC9longitudeSdvs",
+                "mangledName": "$s14PrivacyManager14LocationHelperC9longitudeSdvs",
+                "moduleName": "PrivacyManager",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PrivacyManager14LocationHelperC9longitudeSdvM",
+                "mangledName": "$s14PrivacyManager14LocationHelperC9longitudeSdvM",
+                "moduleName": "PrivacyManager",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initKey",
+            "printedName": "initKey(latitudeKey:longitudeKey:administrativeAreaKey:isoCountryCodeKey:countryKey:thoroughfareKey:localityKey:subLocalityKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PrivacyManager14LocationHelperC7initKey08latitudeF009longitudeF0018administrativeAreaF0014isoCountryCodeF007countryF0012thoroughfareF008localityF0011subLocalityF0ySS_S7StF",
+            "mangledName": "$s14PrivacyManager14LocationHelperC7initKey08latitudeF009longitudeF0018administrativeAreaF0014isoCountryCodeF007countryF0012thoroughfareF008localityF0011subLocalityF0ySS_S7StF",
+            "moduleName": "PrivacyManager",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestLocationState",
+            "printedName": "requestLocationState()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PrivacyManager14LocationHelperC07requestC5StateyyF",
+            "mangledName": "$s14PrivacyManager14LocationHelperC07requestC5StateyyF",
+            "moduleName": "PrivacyManager",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLocationInfo",
+            "printedName": "getLocationInfo(locationResult:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool, [Swift.String : Any]) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, [Swift.String : Any])",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PrivacyManager14LocationHelperC03getC4Info14locationResultyySb_SDySSypGtc_tF",
+            "mangledName": "$s14PrivacyManager14LocationHelperC03getC4Info14locationResultyySb_SDySSypGtc_tF",
+            "moduleName": "PrivacyManager",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManager",
+            "printedName": "locationManager(_:didUpdateLocations:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreLocation.CLLocation]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLLocation",
+                    "printedName": "CoreLocation.CLLocation",
+                    "usr": "c:objc(cs)CLLocation"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PrivacyManager@objc(cs)LocationHelper(im)locationManager:didUpdateLocations:",
+            "mangledName": "$s14PrivacyManager14LocationHelperC08locationB0_18didUpdateLocationsySo010CLLocationB0C_SaySo0I0CGtF",
+            "moduleName": "PrivacyManager",
+            "objc_name": "locationManager:didUpdateLocations:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManagerDidChangeAuthorization",
+            "printedName": "locationManagerDidChangeAuthorization(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PrivacyManager@objc(cs)LocationHelper(im)locationManagerDidChangeAuthorization:",
+            "mangledName": "$s14PrivacyManager14LocationHelperC08locationB22DidChangeAuthorizationyySo010CLLocationB0CF",
+            "moduleName": "PrivacyManager",
+            "objc_name": "locationManagerDidChangeAuthorization:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LocationHelper",
+                "printedName": "PrivacyManager.LocationHelper",
+                "usr": "c:@M@PrivacyManager@objc(cs)LocationHelper"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PrivacyManager@objc(cs)LocationHelper(im)init",
+            "mangledName": "$s14PrivacyManager14LocationHelperCACycfc",
+            "moduleName": "PrivacyManager",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PrivacyManager@objc(cs)LocationHelper",
+        "mangledName": "$s14PrivacyManager14LocationHelperC",
+        "moduleName": "PrivacyManager",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PrivacyManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ContactsUI",
+        "printedName": "ContactsUI",
+        "declKind": "Import",
+        "moduleName": "PrivacyManager"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PrivacyManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "PrivacyManager"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "PrivacyManager"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/PrivacyManager\/PrivacyManager\/PrivacyHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 260,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/PrivacyManager\/PrivacyManager\/PrivacyHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 281,
+      "length": 4,
+      "value": "\"OK\""
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/PrivacyManager\/PrivacyManager\/PrivacyHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 309,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/PrivacyManager\/PrivacyManager\/PrivacyHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1217,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/PrivacyManager\/PrivacyManager\/PrivacyHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1240,
+      "length": 75,
+      "value": "\"For a better experience, please turn on location permissions in settings.\""
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/PrivacyManager\/PrivacyManager\/PrivacyHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1339,
+      "length": 4,
+      "value": "\"OK\""
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/PrivacyManager\/PrivacyManager\/PrivacyHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1715,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/PrivacyManager\/PrivacyManager\/PrivacyHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1738,
+      "length": 53,
+      "value": "\"No camera permission, please turn it on in settings\""
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/PrivacyManager\/PrivacyManager\/PrivacyHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1815,
+      "length": 4,
+      "value": "\"OK\""
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/PrivacyManager\/PrivacyManager\/LocationHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 294,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/PrivacyManager\/PrivacyManager\/LocationHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 330,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/PrivacyManager\/PrivacyManager\/LocationHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 366,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/PrivacyManager\/PrivacyManager\/LocationHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 399,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/PrivacyManager\/PrivacyManager\/LocationHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 441,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/PrivacyManager\/PrivacyManager\/LocationHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 479,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/PrivacyManager\/PrivacyManager\/LocationHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 510,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/PrivacyManager\/PrivacyManager\/LocationHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 546,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/PrivacyManager\/PrivacyManager\/LocationHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 578,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/PrivacyManager\/PrivacyManager\/LocationHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 613,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/PrivacyManager\/PrivacyManager\/LocationHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 697,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/PrivacyManager\/PrivacyManager\/PrivacyRouter.swift",
+      "kind": "StringLiteral",
+      "offset": 286,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/PrivacyManager\/PrivacyManager\/PrivacyRouter.swift",
+      "kind": "StringLiteral",
+      "offset": 319,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/PrivacyManager\/PrivacyManager\/PrivacyRouter.swift",
+      "kind": "StringLiteral",
+      "offset": 355,
+      "length": 4,
+      "value": "\"OK\""
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/PrivacyManager\/PrivacyManager\/PrivacyRouter.swift",
+      "kind": "StringLiteral",
+      "offset": 497,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/PrivacyManager\/PrivacyManager\/PrivacyRouter.swift",
+      "kind": "StringLiteral",
+      "offset": 517,
+      "length": 41,
+      "value": "\"Please enable camera access in Settings\""
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/PrivacyManager\/PrivacyManager\/PrivacyRouter.swift",
+      "kind": "StringLiteral",
+      "offset": 579,
+      "length": 4,
+      "value": "\"OK\""
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/PrivacyManager\/PrivacyManager\/PrivacyRouter.swift",
+      "kind": "StringLiteral",
+      "offset": 1472,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/PrivacyManager\/PrivacyManager\/PrivacyRouter.swift",
+      "kind": "StringLiteral",
+      "offset": 1492,
+      "length": 77,
+      "value": "\"Allow location access to help verify your details and protect your account.\""
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/PrivacyManager\/PrivacyManager\/PrivacyRouter.swift",
+      "kind": "StringLiteral",
+      "offset": 1590,
+      "length": 4,
+      "value": "\"OK\""
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/PrivacyManager\/PrivacyManager\/PrivacyRouter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2788,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

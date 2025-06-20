@@ -1,0 +1,33 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target x86_64-apple-ios18.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name PrivacyManager
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+import AVFoundation
+import ContactsUI
+import CoreLocation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers public class PrivacyHelper : ObjectiveC.NSObject {
+  public static func openSettingAlert(title: Swift.String, message: Swift.String = "", buttonText: Swift.String = "OK", hasCancelButton: Swift.Bool = false)
+  public static func getPhoto(inViewController vc: UIKit.UIViewController, result: @escaping (_ image: UIKit.UIImage) -> Swift.Void)
+  public static func getContactInfo(inViewController vc: UIKit.UIViewController, result: @escaping (_ fullName: Swift.String?, _ phoneNumber: Swift.String?) -> Swift.Void)
+  public static func checkLocation(alertTitle: Swift.String = "", alertMessage: Swift.String = "For a better experience, please turn on location permissions in settings.", alertButtonText: Swift.String = "OK", didAuthorized: @escaping () -> Swift.Void)
+  public static func checkCamera(alertTitle: Swift.String = "", alertMessage: Swift.String = "No camera permission, please turn it on in settings", alertButtonText: Swift.String = "OK", didAuthorized: @escaping () -> Swift.Void)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class LocationHelper : ObjectiveC.NSObject, CoreLocation.CLLocationManagerDelegate {
+  public static var shared: PrivacyManager.LocationHelper
+  public var latitude: Swift.Double
+  public var longitude: Swift.Double
+  public func initKey(latitudeKey: Swift.String, longitudeKey: Swift.String, administrativeAreaKey: Swift.String, isoCountryCodeKey: Swift.String, countryKey: Swift.String, thoroughfareKey: Swift.String, localityKey: Swift.String, subLocalityKey: Swift.String)
+  public func requestLocationState()
+  public func getLocationInfo(locationResult: @escaping (_ locationBool: Swift.Bool, _ locationInfo: [Swift.String : Any]) -> Swift.Void)
+  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [CoreLocation.CLLocation])
+  @objc public func locationManagerDidChangeAuthorization(_ manager: CoreLocation.CLLocationManager)
+  @objc override dynamic public init()
+  @objc deinit
+}
