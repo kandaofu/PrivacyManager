@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PrivacyManager'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Make it easier to obtain device information and make coding easier.'
   s.description      = <<-DESC
     A binary-only precompiled framework for retrieving iOS device information.
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.platform         = :ios, '13.0'
 
   s.source = {
-    :http => 'https://github.com/kandaofu/PrivacyManager/releases/download/1.0.0/PrivacyManager.xcframework.zip'
+    :http => 'https://github.com/kandaofu/PrivacyManager/releases/download/1.0.1/PrivacyManager.xcframework.zip'
   }
 
   s.vendored_frameworks = 'PrivacyManager.xcframework'

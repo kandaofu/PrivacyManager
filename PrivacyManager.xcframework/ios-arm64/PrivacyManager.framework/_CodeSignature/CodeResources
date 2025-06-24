@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/PrivacyHelper.swift</key>
 		<data>
-		2V9tUv7B821u7rQCysZhplbW/qE=
+		J5ID1HbWwwURVciNpYukqU+AlTA=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/PrivacyManager.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Kssfe+O26b8S/fRlec2SVgI4NHE=
+		bobhxhKYJl0z0yDpnD1pXlglzl8=
 		</data>
 		<key>Modules/PrivacyManager.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/PrivacyManager.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		N/1bCHdmUfZ6O3//33vrdDrWbks=
+		aHalduT/bdQWLz2QS3aeGMWV8ak=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -54,22 +54,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2V9tUv7B821u7rQCysZhplbW/qE=
+			J5ID1HbWwwURVciNpYukqU+AlTA=
 			</data>
 			<key>hash2</key>
 			<data>
-			jh9jzIylsBzsZ2wexeRf+j4hPNUsYDkNYk1b2f8vw50=
+			1ZVmgZidvtAPjXXtFLVIK6eyBbfgKoupLEL4H+NAtR0=
 			</data>
 		</dict>
 		<key>Modules/PrivacyManager.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Kssfe+O26b8S/fRlec2SVgI4NHE=
+			bobhxhKYJl0z0yDpnD1pXlglzl8=
 			</data>
 			<key>hash2</key>
 			<data>
-			A6Ot1E9RnPLZs5oydWCxPhXyazbted5oAlT3aBNfHHY=
+			Cd6RbCr5FRbsc+1Sim773+aYkZUg33DZPeUipAEWMlY=
 			</data>
 		</dict>
 		<key>Modules/PrivacyManager.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -109,11 +109,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			N/1bCHdmUfZ6O3//33vrdDrWbks=
+			aHalduT/bdQWLz2QS3aeGMWV8ak=
 			</data>
 			<key>hash2</key>
 			<data>
-			RLKUB/SPIF2ajyzpv2mnxNJsjzsoStPvlTPHmiFR72E=
+			/Ktgdz7w8sYi4kG7XVp0bqaIfV4ChEx/bIqkqggLOEo=
 			</data>
 		</dict>
 	</dict>
